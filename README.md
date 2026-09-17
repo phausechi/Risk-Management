@@ -35,7 +35,7 @@ Os dados históricos de preços de fechamento (`price_close`) foram obtidos via 
 
 <img width="1614" height="972" alt="Rplot" src="https://github.com/user-attachments/assets/351fd145-eed2-4d97-b160-7762755dfaad" />
 
-Os retornos históricos foram plotados contra distribuição normal teórica. A linha vermelha representa o resultado do VaR paramétrico enquanto a azul representa o resultado do histórico. O portfólio é composto por R$4000 em PETR4, R$2000 em ITUB4, R$1000 em VALE3 e R$3000 em  BPAC11. 
+Os retornos históricos foram plotados contra distribuição normal teórica. A linha vermelha representa o resultado do VaR paramétrico enquanto a azul representa o resultado do histórico. O portfólio é composto por R$4000 em BPAC11, R$2000 em ITUB4, R$1000 em PETR4 e R$3000 em VALE3. 
 
 Nota-se, como esperado, que os retornos são **leptocúrticos**, tendo mais massa no centro e caudas, e menos ao meio. Observa-se também que **o paramétrico retornou um VaR de R$ -404**, enquanto **o histórico retornou R$ -313**. Os ES contam uma história diferente, no entanto: **a perda média que cruza o threshold do paramétrico é de R$ -507 enquanto a do histórico é de R$ -544**.
     
